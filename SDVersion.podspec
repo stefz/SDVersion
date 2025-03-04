@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SDVersion"
-  s.version      = "4.3.2"
+  s.version      = "4.3.3"
   s.summary      = "Lightweight Cocoa library for detecting the running device's model and screen size."
   s.homepage     = "https://github.com/sebyddd/SDVersion"
   s.screenshots  = "https://dl.dropboxusercontent.com/s/bmfjwfe2ngnivwn/sdversion.png?dl=0"
@@ -36,12 +36,12 @@ Pod::Spec.new do |s|
   s.osx.source_files = "SDVersion/SDMacVersion/*.{h,m}"
   s.watchos.source_files = "SDVersion/SDwatchOSVersion/*.{h,m}"
   s.tvos.source_files = "SDVersion/SDtvOSVersion/*.{h,m}"
-  s.source       = { :git => 'https://github.com/sebyddd/SDVersion.git', :tag => "#{s.version}" }
+  s.source       = { :git => 'https://github.com/stefz/SDVersion.git', :tag => "#{s.version}" }
   s.source_files  = "SDVersion/*.{h,m}"
 
   s.requires_arc = true
 
-  s.ios.resource_bundles = {
+  s.resource_bundles = {
     'SDVersion' => ['SDVersion/Resources/PrivacyInfo.xcprivacy}']
   }
 
