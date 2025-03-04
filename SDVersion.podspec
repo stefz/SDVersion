@@ -41,4 +41,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
+  s.resource_bundles = {
+    'SDVersion' => ['SDVersion/Resources/PrivacyInfo.xcprivacy}']
+  }
+
 end
